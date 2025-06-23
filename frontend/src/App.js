@@ -7,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          CaCloudStudio home page.
+          CA Cloud Studio LLC home page.
         </p>
         <a
           className="App-link"
-          href="https://github.com/AXCaCloudStudio/cacloudstudio-web"
+          href="https://github.com/AXCaCloudStudio"
           target="_blank"
           rel="noopener noreferrer"
         >
-          CaCloudStudio github
+          github
         </a>
       </header>
     </div>
