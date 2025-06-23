@@ -11,11 +11,11 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://github.com/AXCaCloudStudio/cacloudstudio-web"
+          href="https://github.com/AXCaCloudStudio"
           target="_blank"
           rel="noopener noreferrer"
         >
-          CA Cloud Studio LLC github
+          github
         </a>
       </header>
     </div>
