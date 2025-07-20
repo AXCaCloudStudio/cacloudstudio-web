@@ -15,9 +15,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
           style={{
-            textDecoration: underline,
-            textDecorationSkipInk, none,
-            fontFamily: Arial,
+            textDecoration: "underline",
+            textDecorationSkipInk: "none",
+            fontFamily: "Arial",
           }}
         >
           github
