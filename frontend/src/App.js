@@ -14,6 +14,7 @@ function App() {
           href="https://github.com/AXCaCloudStudio"
           target="_blank"
           rel="noopener noreferrer"
+          style="text-decoration: underline; text-decoration-skip-ink: none; font-family: Arial;"
         >
           github
         </a>
