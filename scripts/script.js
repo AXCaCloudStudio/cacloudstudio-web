@@ -22,7 +22,10 @@ async function textToSpeech(text, outputFile) {
     }
 
     const url = `${endpoint}/openai/deployments/${encodeURIComponent(deployment)}/audio/speech?api-version=${encodeURIComponent(apiVersion)}`;
+    console.log(url);
+    console.log(text);
     const body = {
+        model: model,
         input: text,
         voice,        // must be voice supported by your deployed TTS model
         format        // file format (mp3, wav)
@@ -48,4 +51,4 @@ async function textToSpeech(text, outputFile) {
 }
 
 // Example usage
-textToSpeech("Where am I?", "example.wav").catch(console.error);
+textToSpeech("Review and adjust the replication strategy for the storage layer of all other storage services.", "example.mp3").catch(console.error);
