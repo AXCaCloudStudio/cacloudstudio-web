@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "microsoft-cognitiveservices-speech-sdk": "^1.45.0"
+  }
+}
